@@ -159,7 +159,7 @@ async def metadata():
     return {
         "team_name": "Vera Challenger",
         "team_members": ["Antigravity"],
-        "model": "gemini-1.5-flash",
+        "model": "gemini-2.5-flash",
         "approach": (
             "Trigger-kind routing with per-kind LLM prompt templates. "
             "Auto-reply detection, intent routing, anti-repetition, "

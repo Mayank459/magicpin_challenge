@@ -21,7 +21,7 @@ _api_key = os.getenv("GEMINI_API_KEY", "")
 if _api_key:
     genai.configure(api_key=_api_key)
 
-MODEL_NAME = "gemini-1.5-flash"
+MODEL_NAME = "gemini-2.5-flash"
 
 # Auto-reply patterns (common WhatsApp Business auto-replies)
 AUTO_REPLY_PATTERNS = [
