@@ -10,7 +10,11 @@ import json
 import hashlib
 import re
 from typing import Optional
+from dotenv import load_dotenv
 import google.generativeai as genai
+
+# Load .env if present
+load_dotenv()
 
 # Configure Gemini
 _api_key = os.getenv("GEMINI_API_KEY", "")
